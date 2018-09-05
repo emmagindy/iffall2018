@@ -1,0 +1,52 @@
+.title {
+	color: red;
+	font-size: 50px;
+	font-family: Helvetica;
+}
+
+.subhead {color: red;
+	font-size: 30px;
+	font-family: Helvetica;
+
+}
+
+.dr-peter-venkman{color: black;
+	font-size: 20px;
+	font-family: Helvetica;
+	font-weight: bold;
+
+}
+
+.dana-barrett{color: black;
+	font-size: 20px;
+	font-family: Georgia;
+	font-weight: bold;
+
+}
+
+.tone{
+	font-style: italic;
+}
+
+
+.dr-ray-stantz{color: black;
+	font-size: 20px;
+	font-family: Verdana;
+	font-weight: bold;
+
+}
+
+
+.dr-egon{color: black;
+	font-size: 20px;
+	font-family: Times New Roman;
+	font-weight: bold;
+
+}
+
+.mayor{color: black;
+	font-size: 20px;
+	font-family: Arial;
+	font-weight: bold;
+
+}
