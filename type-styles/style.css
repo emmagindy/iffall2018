@@ -1,0 +1,48 @@
+body {font-family: "Open Sans";
+font-size: 13pt}
+
+.title {font-size: 10em
+}
+.title {text-align: center;}
+.title {font-weight: bolder;}
+.subtitle {
+font-size: 13pt;
+font-weight: normal;
+text-align: center}
+
+.section-title {text-transform: uppercase;
+font-size: 25pt
+}
+
+.type {font-family: serif;
+	font-weight: bold
+}
+
+	
+
+		.light {font-weight: lighter;}
+		.normal {font-weight: normal;}
+		.bold {font-weight: bold;}
+
+	
+
+		.italic {font-style: italic;}
+
+	
+
+		.tight {letter-spacing: -1pt }
+		.medium {letter-spacing: .05pt}
+		.loose {letter-spacing: 1pt}
+
+
+		.capitalized {text-transform: capitalize;}
+		.uppercase {text-transform: uppercase;}
+		.lowercase {text-transform: lowercase;}
+
+		.underlined {text-decoration-line: underline;}
+		.line-through {text-decoration-line: line-through;}
+		.overlined {text-decoration-line: overline;}
+
+
+
+
