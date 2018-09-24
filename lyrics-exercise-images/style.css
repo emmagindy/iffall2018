@@ -1,0 +1,40 @@
+
+body {font-family: 'Abel', sans-serif}
+body {background-color: #b0ced1}
+body {text-align: center;}
+.name {font-size: 90px}
+.name {font-family: Courier}
+.name {font-weight: bolder;}
+.name {color: white}
+.name {letter-spacing: 10pt}
+.subhead {font-size: 20px}
+.subhead {font-family: Courier}
+.subhead {color: white;}
+.subhead {letter-spacing: 7px}
+.section {font-weight: bolder;}
+.section {font-family: Courier}
+.section {color: white}
+.section {letter-spacing: 5px}
+.section {text-decoration: underline;}
+.section {text-decoration-color: white}
+.section {font-size: 17px}
+.chorus {color: white}
+
+
+
+.second-column {margin: 50px}
+.sticky {position: fixed;
+padding-top: 50px}
+
+
+#bgimage {
+	background-image: url("images/bgimage.jpg");
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+
+#fg {width: 200px;
+}
