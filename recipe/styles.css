@@ -1,0 +1,116 @@
+body {
+	margin: 0px 0px 0px 0px;
+}
+
+
+
+.header {
+
+    height: 200px;
+    background-image: url(granolabars.jpg);
+    background-size: cover;
+    background-position: -1px -35px;
+    background-repeat: no-repeat;
+    padding: 0 0 0 50px;
+    font-family: 'Slabo 27px', serif;
+    font-size: 17px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+h2 {
+	margin-top: 0px;
+	padding-top: 50px;
+	margin-bottom: 0px;
+	letter-spacing: 5px;
+	font-weight: lighter;
+	font-size: 17px;
+
+}
+
+h1 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	letter-spacing: .5px;
+	font-size: 34px;
+	font-family: 'slabo 27px', serif;
+}
+
+.bottomofsection {
+	margin-bottom: 50px;
+}
+
+.section2
+{
+	box-sizing: border-box;
+	margin: 41px 41px 41px 41px;
+	text-align: center;
+	color: black;
+	font-size: 12px;
+	font-family: 'slabo 27px', serif;
+	line-height: 19px;
+
+}
+
+.ingredients {
+	background-color: #001a33;
+	color: white;
+}
+
+#ingredients {
+	padding-top: 41px;
+	padding-bottom: 21px;
+	color: white;
+	font-family: 'slabo 27px', serif;
+	text-align: center;
+}
+ul {
+	padding: 15px 15px 15px 15px;
+	list-style: none;
+	max-width: 293px;
+	margin: auto;
+	font-family: 'slabo 27px', serif;
+	font-size: 12px;
+}
+
+span {
+	font-size: 15px;
+
+
+}
+
+.imagebreak {
+	height: 150px;
+	background-image: url(bars.jpg);
+	background-size: cover;
+	background-position: 0px -328px ;
+	background-repeat: no-repeat;
+}
+
+#howtomake {
+	text-align: center;
+	color: black;
+	padding-top: 41px;
+	padding-bottom: 41px;
+
+}
+
+.howtomake {
+	padding: 0px 41px 41px 41px;
+	font-family: 'slabo 27px', serif;
+}
+
+
+.step {
+
+	text-decoration: underline;
+}
+
+
+.bottomimage {
+	height: 200px;
+	background-image: url(barsfinished.jpg);
+	background-position: -13px 6px;
+	background-size: cover;
+}
+
