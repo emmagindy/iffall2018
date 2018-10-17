@@ -18,11 +18,26 @@ body {
     letter-spacing: 3px;
 }
 
+#imagesource1 {
+	position: relative;
+	left: 235px;
+	font-weight: lighter;
+	font-size: 6pt;
+	top: 33px;
+	font-family: sans-serif;
+	text-decoration: underline;
+	color: black;
+
+}
+
+a:visited {
+	color: black;
+}
 h2 {
 	margin-top: 0px;
 	padding-top: 50px;
 	margin-bottom: 0px;
-	letter-spacing: 5px;
+	letter-spacing: 2px;
 	font-weight: lighter;
 	font-size: 17px;
 
@@ -36,6 +51,10 @@ h1 {
 	font-family: 'slabo 27px', serif;
 }
 
+p {
+	color: #001a33;
+}
+
 .bottomofsection {
 	margin-bottom: 50px;
 }
@@ -43,13 +62,18 @@ h1 {
 .section2
 {
 	box-sizing: border-box;
-	margin: 41px 41px 41px 41px;
-	text-align: center;
+	margin: 0px 41px 41px 48px;
+	text-align: left;
 	color: black;
-	font-size: 12px;
+	font-size: 14px;
 	font-family: 'slabo 27px', serif;
-	line-height: 19px;
+	line-height: 20px;
 
+}
+
+h2.about
+{
+	font-weight: bold;
 }
 
 .ingredients {
@@ -65,12 +89,13 @@ h1 {
 	text-align: center;
 }
 ul {
-	padding: 15px 15px 15px 15px;
+	padding: 15px 15px 15px 29px;
 	list-style: none;
 	max-width: 293px;
 	margin: auto;
 	font-family: 'slabo 27px', serif;
-	font-size: 12px;
+	font-size: 14px;
+	line-height: 20px;
 }
 
 span {
@@ -89,7 +114,7 @@ span {
 
 #howtomake {
 	text-align: center;
-	color: black;
+	color: #001a33;
 	padding-top: 41px;
 	padding-bottom: 41px;
 
@@ -103,14 +128,16 @@ span {
 
 .step {
 
-	text-decoration: underline;
+	color: #001a33;
+	font-weight: bold;
+
 }
 
 
 .bottomimage {
 	height: 200px;
 	background-image: url(barsfinished.jpg);
-	background-position: -13px 6px;
+	background-position: 1px -114px;
 	background-size: cover;
 }
 
