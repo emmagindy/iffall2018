@@ -1,0 +1,135 @@
+a {
+        display: block; /* turn the inline element into a box */
+        position: fixed; /* position the anchor fixed to the viewport */
+        top: 0; /* have the top edge of the anchor touch the the top of the viewport */
+        bottom: 0;  /* have the bottom edge of the anchor touch the the bottom of the viewport */
+        left: 0;  /* have the left edge of the anchor touch the the left of the viewport */
+        right: 0;  /* have the right edge of the anchor touch the the right of the viewport */
+        z-index: 100; /* make sure the anchor is the highest thing in the stack order of all elements */
+}
+
+
+html {
+	height: 100%;
+}
+
+body { 
+	width:100%; 
+	height:100%; 
+    background-image: url(images/food1copy.jpg);
+    background-size:cover;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.text {
+	max-width: 140px;
+    position: relative;
+    left: 10%;
+    top: 20px;
+    line-height: 23px;
+}
+
+.quote {
+	font-family: courier;
+	font-size: 14pt;
+	color: navy;
+	font-weight: bold;
+}
+
+.anon {
+	font-family: courier;
+	max-width: 200px;
+	font-size: .3rem;
+	color: navy;
+	line-height: 0px;
+	margin-top: 20px;
+
+}
+
+
+
+
+@media (min-width: 410px) and (min-height: 730px) {
+	.text {
+	max-width: 200px;
+    position: relative;
+    left: 8%;
+    top: 50px;
+    line-height: 23px;
+	}
+}
+
+
+
+@media (min-width: 766px) and (min-height: 1020px) {
+	.text {
+	max-width: 270px;
+    position: relative;
+    left: 55%;
+    top: 425px;
+    line-height: 23px;
+    font-style: 17pt;
+	}
+
+	.quote {
+		font-size: 20pt;
+		line-height: 28pt;
+	}
+
+	.anon {
+		font-size: 13pt;
+	}
+}
+
+
+
+@media (min-width: 1020px) and (min-height: 1360px) {
+	.text {
+	max-width: 300px;
+    position: relative;
+    left: 60%;
+    top: 530px;
+    line-height: 28px;
+    font-style: 17pt;
+	}
+
+	.quote {
+		font-size: 23pt;
+		line-height: 33pt;
+	}
+
+	.anon {
+		font-size: 16pt;
+	}
+}
+
+
+@media (min-width: 1020px) and (min-height: 800px) {
+	.text {
+	max-width: 40%;
+    position: relative;
+    left: 50%;
+    top: 45%;
+    line-height: 8px;
+    font-style: 17pt;
+	}
+
+	.quote {
+		font-size: 33pt;
+		line-height: 38pt;
+	}
+
+	.anon {
+		font-size: 16pt;
+	}
+
+	body {
+		background-position: bottom left;
+	}
+
+}
+
+
+

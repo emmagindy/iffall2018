@@ -1,0 +1,177 @@
+a {
+        display: block; /* turn the inline element into a box */
+        position: fixed; /* position the anchor fixed to the viewport */
+        top: 0; /* have the top edge of the anchor touch the the top of the viewport */
+        bottom: 0;  /* have the bottom edge of the anchor touch the the bottom of the viewport */
+        left: 0;  /* have the left edge of the anchor touch the the left of the viewport */
+        right: 0;  /* have the right edge of the anchor touch the the right of the viewport */
+        z-index: 100; /* make sure the anchor is the highest thing in the stack order of all elements */
+}
+
+html {
+	height: 100%;
+}
+
+body { 
+	width:100%; 
+	height:100%; 
+    background-image: url(images/food2.jpg);
+    background-size:cover;
+    background-position: 0% 50%;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+.text {
+	max-width: 140px;
+    position: relative;
+    left: 10%;
+    top: 20px;
+    line-height: 23px;
+}
+
+.quote {
+	font-family: courier;
+	font-size: 14pt;
+	color: white;
+	font-weight: normal;
+}
+
+.anon {
+	font-family: courier;
+	max-width: 200px;
+	color: white;
+	line-height: 0px;
+	margin-top: 20px;
+	font-size: 10pt;
+
+}
+
+
+@media (min-width: 370px) and (min-height: 665px) {
+	.text {
+	max-width: 230px;
+    position: relative;
+    left: 10%;
+    top: 50px;
+    line-height: 23px;
+	}
+}
+
+@media (min-width: 410px) and (min-height: 730px) {
+	.text {
+	max-width: 230px;
+    position: relative;
+    left: 10%;
+    top: 50px;
+    line-height: 23px;
+	}
+}
+
+
+@media (min-width: 766px) and (min-height: 1020px) {
+	.text {
+	max-width: 250px;
+    position: relative;
+    left: 12%;
+    top: 70px;
+    line-height: 23px;
+	}
+	
+	body {
+		background-position: 6% 30%;
+	}
+
+	.quote {
+		font-size: 19pt;
+		line-height: 25pt;
+
+	}
+
+	.anon {
+		font-size: 13pt;
+	}
+}
+
+
+@media (min-width: 1020px) and (min-height: 1360px) {
+	.text {
+	max-width: 400px;
+    position: relative;
+    left: 8%;
+    top: 120px;
+    line-height: 28px;
+	}
+	
+	body {
+		background-position: 6% 30%;
+	}
+
+	.quote {
+		font-size: 23pt;
+		line-height: 30pt;
+
+	}
+
+	.anon {
+		font-size: 16pt;
+		padding-top: 20px;
+	}
+}
+
+
+@media (min-width: 1020px) and (min-height: 800px) {
+	.text {
+	max-width: 500px;
+    position: relative;
+    left: 16%;
+    top: 320px;
+    
+	}
+	
+	body {
+		background-position: top right;
+		background-size: 50%;
+		background-color: #ffba31; 
+	}
+
+	.quote {
+		font-size: 28pt;
+		line-height: 40pt;
+
+	}
+
+	.anon {
+		font-size: 20pt;
+		padding-top: 20px;
+	}
+}
+
+
+
+@media (min-width: 1280px) and (min-height: 1024px) {
+	.text {
+	max-width: 500px;
+    position: relative;
+    left: 8%;
+    top: 520px;
+    
+	}
+	
+	body {
+		background-position: center;
+		background-size: cover;
+		background-color: #ffba31;
+	}
+
+	.quote {
+		font-size: 35pt;
+		line-height: 48pt;
+
+	}
+
+	.anon {
+		font-size: 25pt;
+		padding-top: 20px;
+	}
+}
