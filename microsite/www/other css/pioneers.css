@@ -1,0 +1,175 @@
+body {
+font-family: 'Unica One';
+	margin: 0;
+}
+
+.navbar {
+	margin: 0 auto;
+	background-color: orange;
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+
+.logo {
+	float: left;
+	width: 15%;
+	padding-left: 5%;
+	padding-top: 14px;
+}
+
+nav {
+	float: right;
+	padding-right: 1%;
+}
+
+header {
+	background-color: orange;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 10px;
+	font-size: 12pt;
+	padding-top: 40px;
+	padding-right: 65px;
+	position: relative;
+}
+
+
+nav a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-family: 'roboto';
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+nav a:active {
+	text-decoration: underline;
+}
+
+nav a::before {
+	content: '';
+	display: block;
+	height: 5px;
+	background-color: white;
+
+	position: absolute;
+	top: 0;
+	width: 0%;
+
+	transition: all ease-in-out 250ms;
+
+}
+
+.titleandcontent {
+	float: left;
+	display: block;
+	padding-top: 130px;
+	padding-left: 5%;
+	max-width: 90%;
+	position: center;
+}
+
+.p1 {
+	max-width: 47%;
+	display: block;
+	margin-right: none;
+	float: left;
+	margin-top: 0;
+	font-size: 15pt;
+	line-height: 22pt;
+	padding-top: 80px;
+	padding-bottom: 58px;
+}
+
+.p2 {
+	
+	display: block;
+	margin-right: 0;
+	
+	margin-top: 0;
+	font-size: 15pt;
+	line-height: 22pt;
+	padding-top: 80px;
+	padding-bottom: 8%;
+
+}
+
+#image1 {
+	max-width: 47%;
+	display: block;
+	float: right;
+	padding: 6% 2% 6% 6%;
+}
+
+#image2 {
+	max-width: 47%;
+	display: block;
+	float: left;
+	padding: 6% 6% 6% 0%;
+	
+}
+
+.title {
+	font-family: 'Unica One';
+	font-size: 80pt;
+	color: orange;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	margin-top: 27px;
+	margin-bottom: 0;
+	letter-spacing: 7px;
+	display: block;
+}
+
+p {
+	font-family: 'roboto';
+	line-height: 25px;
+}
+
+.name {
+	font-family: 'Unica One';
+	color: orange;
+}
+
+
+@media (max-width: 375px) {
+	.textandcontent{
+		display: inline-block;
+		max-width: 85%;
+		float: none;
+	}
+}
+
+
+@media (max-width: 479px) {
+	.title {
+	font-family: 'Unica One';
+	font-size: 50pt;
+	margin: auto;
+	color: orange;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	margin-top: 27px;
+	margin-bottom: 0;
+	letter-spacing: 7px;
+	display: block;
+	}
+}
