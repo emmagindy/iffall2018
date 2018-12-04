@@ -31,3 +31,21 @@ img {
 }
 
 
+@media (max-width: 1219px) {
+	img {
+		margin-top: 65%;
+	}
+
+	.button {
+		
+		align-items: center;
+		
+		bottom: 43%;
+		width: 120px;
+	}
+
+
+.button:hover {
+	background-image: url(enterhover.png);
+}
+

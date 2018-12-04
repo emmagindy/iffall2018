@@ -4,13 +4,40 @@ font-family: 'Unica One';
 }
 
 
-/*.navbar {
+
+
+
+.footer {
+  
+  padding: 1rem;
+  background-color: orange;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 10pt;
+  color: white;
+  clear: both;
+  letter-spacing: 1.5px;
+
+}
+
+
+
+.containfloats:after {
+	content: "";
+	clear: both;
+	display: table;
+
+}
+
+.navbar {
 	margin: 0 auto;
 	background-color: orange;
 	width: 100%;
 	position: fixed;
 	top: 0;
 }
+
+
 
 
 
@@ -72,17 +99,53 @@ nav a {
   font-family: 'roboto';
 }
 
-*/ 
+
+
+
 @media (max-width: 1219px) /*mobile only*/{
+
+
+.bottomp {
+	padding-bottom: 4rem;
+}
+
+
+.footer {
+  
+  padding: 1rem;
+  background-color: orange;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 8pt;
+  color: white;
+  clear: both;
+  letter-spacing: 1.5px;
+  line-height: 16px;
+  margin: auto;
+
+}
+
+
+
+
+
+
+
+
 
 nav li {
 	padding-top: 40px;
+}
+
+.navbar {
+	background-color: orange;
 }
 
 nav {
 	position: absolute;
 	top: 30px;
 	right: 0;
+
 }
 
 nav ul {
@@ -126,6 +189,23 @@ nav.open {
 @media (min-width: 1220px) /*desktop only*/ {
 
 
+.containfloats:after {
+	content: "";
+	clear: both;
+	display: table;
+
+}
+
+.currentpage {
+	text-decoration: underline;
+}
+
+
+.contentnotitle {
+	margin-top: 5%;
+	
+}
+
 #origins1 {
 	max-width: 46%; 
 	padding-top: 10%;
@@ -145,6 +225,8 @@ nav.open {
 
 #originsimage2 {
 	max-width: 50%;
+	margin-bottom: 10%;
+	box-sizing: border-box;
 }
 
 
@@ -336,15 +418,21 @@ nav a::before {
 .name {
 	font-family: 'Unica One';
 	color: orange;
+	font-size: 19pt;
 }
 
 @media (max-width: 414px) /*mobile*/ {
+
+
 
 body {
 	max-width: 100%;
 }
 
-
+.name {
+	
+	font-size: 14pt;
+}
 	.title {
 		margin-bottom: 20px;
 		font-size: 60pt;
@@ -427,7 +515,7 @@ body {
  .content {
  	padding-top: 10%;
  	padding-bottom: 10%;
- 	margin-bottom: -28%;
+ 	margin-bottom: -15%;
  	max-width: 100%;
  }
 } 
