@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Intro</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto|Unica+One" rel="stylesheet">
+	<meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+		<!-- This is my own jQuery. You should create a separate file and link to it as above. -->
+		<script>
+
+			$( document ).ready(function() {			/* Check that the DOM (the document) is ready */
+			    
+				$("#hamburger").click(function(){		/* Listen for a "click" on somewith with the class of "controls" */
+					$("nav").toggleClass("open");	/* Toggle (add/remove) the class "open" on an element with the ID of "drawer" */
+					
+				});
+
+			});
+
+		</script>
+
+</head>
+<body>
+	
+		</div>
+
+		<header>
+			<div class="navbar">
+				<a href="home.html"><img class=logo src="beehivelogo.png"></a>
+				<img id="hamburger" src="hamburger.png">
+				<nav>
+					<ul>
+						
+						<li id="topbutton"><a href="intro.html" class="currentpage">intro</a></li>
+						<li><a href="origins.html" >origins</a></li>
+						<li><a href="pioneers.html">pioneers</a></li>
+						<li><a href="modernbeekeeping.html">modern beekeeping</a></li>
+						<li><a href="savethebees.html" id="lastbutton">save the bees</a></li>
+						
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<div class="content">
+			<p class="title">intro</p>
+			<div class="containfloats contentnotitle" >
+				<img class="image1" src="intro1.png">	
+				<p class="p1 bottomp">Beekeeping (or apiculture) is the maintenance of beecolonies, commonly in man-made hives, by humans. Most such bees are honey bees in the genus Apis, but other honey-producing bees such as Melipona stingless bees are also kept. A beekeeper (or apiarist) keeps bees in order to collect their honey and other products that the hive produces (including beeswax, propolis, flower pollen, bee pollen, and royal jelly), to pollinate crops, orto produce bees for sale to other beekeepers. A location where bees are kept is called an apiary or "bee yard."
+				</p>
+			</div>
+			
+		</div>
+
+	
+
+<div class="footer footercontent">sources: https://en.wikipedia.org/wiki/Beekeeping & https://unsplash.com/search/photos/beekeeping</div>
+
+</body>
+</html>
+
+
